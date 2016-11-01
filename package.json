@@ -1,0 +1,11 @@
+{
+  "name": "brand-variables",
+  "version": "1.0.0",
+  "description": "Core brand variables to start your design system",
+  "main": "_variables.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Etch",
+  "license": "ISC"
+}
