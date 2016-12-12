@@ -25,55 +25,55 @@
 // Colors
 // ==================================================
 
-$color-brand-primary: rgb(213, 0, 88);
-$color-brand-primary-dark: rgb(119, 2, 63);
-$color-brand-primary-light: rgb(240, 96, 152);
-$color-brand-primary-lighter: rgb(252, 228, 237);
+$color-brand-primary: rgb(213, 0, 88) !default;
+$color-brand-primary-dark: rgb(119, 2, 63) !default;
+$color-brand-primary-light: rgb(240, 96, 152) !default;
+$color-brand-primary-lighter: rgb(252, 228, 237) !default;
 
-$color-brand-grey: rgb(77, 77, 79);
-$color-brand-grey-light: rgb(215, 216, 214);
+$color-brand-grey: rgb(77, 77, 79) !default;
+$color-brand-grey-light: rgb(215, 216, 214) !default;
 
-$color-white: #fff;
-$color-grey-lightest: #f6f6f6;
-$color-grey-lighter: #eeeeef;
-$color-grey-light: #dedede;
-$color-grey: #d1d1d1;
-$color-grey-dark: lighten($color-brand-grey, 25%);
-$color-grey-darker: $color-brand-grey;
+$color-white: #fff !default;
+$color-grey-lightest: #f6f6f6 !default;
+$color-grey-lighter: #eeeeef !default;
+$color-grey-light: #dedede !default;
+$color-grey: #d1d1d1 !default;
+$color-grey-dark: lighten($color-brand-grey, 25%) !default;
+$color-grey-darker: $color-brand-grey !default;
 
-$color-darken: rgba(0, 0, 0, .075);
-$color-darken-more: rgba(0, 0, 0, .25);
+$color-darken: rgba(0, 0, 0, .075) !default;
+$color-darken-more: rgba(0, 0, 0, .25) !default;
 
-$color-lighten: rgba(255, 255, 255, .1);
-$color-lighten-more: rgba(255, 255, 255, .5);
-$color-lighten-lots: rgba(255, 255, 255, .75);
+$color-lighten: rgba(255, 255, 255, .1) !default;
+$color-lighten-more: rgba(255, 255, 255, .5) !default;
+$color-lighten-lots: rgba(255, 255, 255, .75) !default;
 
 
 
 // Borders
 // ==================================================
 
-$border-color: $color-grey-light;
-$border-style: solid;
+$border-color: $color-grey-light !default;
+$border-style: solid !default;
 
-$border-width: .1em;
-$border-width-sm: $border-width / 2;
-$border-width-lg: $border-width * 2;
+$border-width: .1em !default;
+$border-width-sm: $border-width / 2 !default;
+$border-width-lg: $border-width * 2 !default;
 
-$border: $border-style $border-width $border-color;
+$border: $border-style $border-width $border-color !default;
 
 
 // Border radius
 // ==================================================
 
-$border-radius: 0;
+$border-radius: 0 !default;
 
 
 // Breakpoints
 // ==================================================
 // Usage: @media screen and (min-width: map-get($bp, sm)) {}
 
-$container-max-width: 1200 / 16 * 1em;
+$container-max-width: 1200 / 16 * 1em !default;
 
 $bp: (
   xs: 0,
@@ -84,142 +84,142 @@ $bp: (
   xxl: 60em,
   xxxl: 70em,
   max: $container-max-width
-);
+) !default;
 
 // Fonts
 // ==================================================
 
-$font-family-cursive: cursive;
-$font-family-monospace: monospace;
-$font-family-sans-serif: Arial, "Helvetica Neue", "Helvetica", sans-serif;
-$font-family-serif: serif;
+$font-family-cursive: cursive !default;
+$font-family-monospace: monospace !default;
+$font-family-sans-serif: Arial, "Helvetica Neue", "Helvetica", sans-serif !default;
+$font-family-serif: serif !default;
 
-$font-family: $font-family-sans-serif;
+$font-family: $font-family-sans-serif !default;
 
-$line-height: 1.5;
-$font-size: 1rem; // 16px
-$font-size-sm: .875em;
-$font-size-lg: 1.25em;
-$font-size-xs: .75em;
+$line-height: 1.5 !default;
+$font-size: 1rem !default; // 16px
+$font-size-sm: .875em !default;
+$font-size-lg: 1.25em !default;
+$font-size-xs: .75em !default;
 
-$selection-bg: rgba(0, 0, 0, .25);
-$selection-color: inherit;
+$selection-bg: rgba(0, 0, 0, .25) !default;
+$selection-color: inherit !default;
 
 
 // Spacing
 // ==================================================
 
-$spacing-horizontal: 1em; // 16px
-$spacing-horizontal-lg: $spacing-horizontal * 2;
-$spacing-horizontal-sm: $spacing-horizontal / 2;
-$spacing-horizontal-xl: $spacing-horizontal * 4;
-$spacing-horizontal-xs: $spacing-horizontal / 4;
+$spacing-horizontal: 1em !default; // 16px
+$spacing-horizontal-lg: $spacing-horizontal * 2 !default;
+$spacing-horizontal-sm: $spacing-horizontal / 2 !default;
+$spacing-horizontal-xl: $spacing-horizontal * 4 !default;
+$spacing-horizontal-xs: $spacing-horizontal / 4 !default;
 
-$spacing-horizontal-fluid: 10%;
-$spacing-horizontal-fluid-lg: $spacing-horizontal-fluid * 1.5;
-$spacing-horizontal-fluid-sm: $spacing-horizontal-fluid / 1.5;
+$spacing-horizontal-fluid: 10% !default;
+$spacing-horizontal-fluid-lg: $spacing-horizontal-fluid * 1.5 !default;
+$spacing-horizontal-fluid-sm: $spacing-horizontal-fluid / 1.5 !default;
 
-$spacing-horizontal-root: 5vw;
+$spacing-horizontal-root: 5vw !default;
 
-$spacing-vertical: 1em; // 16px
-$spacing-vertical-lg: $spacing-vertical * 2;
-$spacing-vertical-sm: $spacing-vertical / 2;
-$spacing-vertical-xl: $spacing-vertical * 4;
-$spacing-vertical-xs: $spacing-vertical / 4;
+$spacing-vertical: 1em !default; // 16px
+$spacing-vertical-lg: $spacing-vertical * 2 !default;
+$spacing-vertical-sm: $spacing-vertical / 2 !default;
+$spacing-vertical-xl: $spacing-vertical * 4 !default;
+$spacing-vertical-xs: $spacing-vertical / 4 !default;
 
-$spacing-vertical-fluid: 10%;
-$spacing-vertical-fluid-lg: $spacing-vertical-fluid * 1.5;
-$spacing-vertical-fluid-sm: $spacing-vertical-fluid / 1.5;
+$spacing-vertical-fluid: 10% !default;
+$spacing-vertical-fluid-lg: $spacing-vertical-fluid * 1.5 !default;
+$spacing-vertical-fluid-sm: $spacing-vertical-fluid / 1.5 !default;
 
-$spacing-vertical-root: 5vw;
+$spacing-vertical-root: 5vw !default;
 
 
 // Transitions
 // ==================================================
 
-$transition-duration: 125ms;
-$transition-timing: ease-in-out;
+$transition-duration: 125ms !default;
+$transition-timing: ease-in-out !default;
 
 
 // Body
 // ==================================================
 
-$body-bg: $color-white;
-$body-color: $color-grey-darker;
+$body-bg: $color-white !default;
+$body-color: $color-grey-darker !default;
 
 
 // Headings
 // ==================================================
 
 // @TODO update heading sizes
-$h1-font-size: 1.75em;
-$h2-font-size: 1.5em;
-$h3-font-size: 1.25em;
-$h4-font-size: 1.125em;
-$h5-font-size: 1em;
-$h6-font-size: .875em;
+$h1-font-size: 1.75em !default;
+$h2-font-size: 1.5em !default;
+$h3-font-size: 1.25em !default;
+$h4-font-size: 1.125em !default;
+$h5-font-size: 1em !default;
+$h6-font-size: .875em !default;
 
-$heading-color: $color-grey-darker;
-$heading-font-family: $font-family-sans-serif;
-$heading-font-weight: normal;
+$heading-color: $color-grey-darker !default;
+$heading-font-family: $font-family-sans-serif !default;
+$heading-font-weight: normal !default;
 $heading-line-height: 1.25;
 
 
 // Inputs
 // ==================================================
 
-$input-bg: $color-white;
-$input-bg-disabled: $color-grey-lightest;
+$input-bg: $color-white !default;
+$input-bg-disabled: $color-grey-lightest !default;
 
-$input-border-color: $color-white;
-$input-border-color-focus: $color-grey-light;
-$input-border-color-hover: lighten($color-grey-light, 5%);
+$input-border-color: $color-white !default;
+$input-border-color-focus: $color-grey-light !default;
+$input-border-color-hover: lighten($color-grey-light, 5%) !default;
 
-$input-border-radius: $border-radius;
+$input-border-radius: $border-radius !default;
 
-$input-box-shadow: none;
+$input-box-shadow: none !default;
 
-$input-color: $body-color;
-$input-color-placeholder: $color-grey-dark;
+$input-color: $body-color !default;
+$input-color-placeholder: $color-grey-dark !default;
 
-$input-padding-horizontal: $spacing-horizontal-sm;
-$input-padding-vertical: $spacing-vertical-sm;
+$input-padding-horizontal: $spacing-horizontal-sm !default;
+$input-padding-vertical: $spacing-vertical-sm !default;
 
 
 // Labels
 // ==================================================
 
-$label-color: inherit;
-$label-font-size: 1rem;
+$label-color: inherit !default;
+$label-font-size: 1rem !default;
 
 
 // Buttons
 // ==================================================
 
-$button-bg: $color-brand-primary;
-$button-color: $color-white;
+$button-bg: $color-brand-primary !default;
+$button-color: $color-white !default;
 
 // Links
 // ==================================================
 
-$link-color: $color-brand-primary;
-$link-active-color: darken($link-color, 5%);
-$link-focus-color: darken($link-color, 5%);
-$link-hover-color: lighten($link-color, 5%);
+$link-color: $color-brand-primary !default;
+$link-active-color: darken($link-color, 5%) !default;
+$link-focus-color: darken($link-color, 5%) !default;
+$link-hover-color: lighten($link-color, 5%) !default;
 
-$link-decoration: underline;
-$link-hover-decoration: underline;
+$link-decoration: underline !default;
+$link-hover-decoration: underline !default;
 
 
 // Tables
 // ==================================================
 
-$table-cell-padding: $spacing-vertical-sm $spacing-horizontal-sm;
+$table-cell-padding: $spacing-vertical-sm $spacing-horizontal-sm !default;
 
-$table-bg: transparent;
+$table-bg: transparent !default;
 
-$table-border-color: $border-color;
-$table-border-width: $border-width;
+$table-border-color: $border-color !default;
+$table-border-width: $border-width !default;
 
-$table-border-collapse: true;
-$table-layout-fixed: false; // True breaks styleguide
+$table-border-collapse: true !default;
+$table-layout-fixed: false !default; // True breaks styleguide
