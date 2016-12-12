@@ -1,6 +1,6 @@
 {
   "name": "brand-variables",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Core SCSS variables to start a design system",
   "main": "_variables.scss",
   "scripts": {
